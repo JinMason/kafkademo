@@ -1,0 +1,12 @@
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: localhost:8090 #서버 설정:포트 
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    #properties:
+      #인증관련 설정
+        
+        
+     
+      
